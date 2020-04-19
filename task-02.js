@@ -3,7 +3,7 @@
 const total = 100;
 let ordered = 50;
 
-if (ordered <= 100) {
+if (ordered <= total) {
   console.log('Заказ оформлен, с вами свяжется менеджер');
 } else {
   console.log('На складе недостаточно товаров!');
@@ -13,7 +13,7 @@ if (ordered <= 100) {
 
 ordered = 20;
 
-if (ordered <= 100) {
+if (ordered <= total) {
   console.log('Заказ оформлен, с вами свяжется менеджер');
 } else {
   console.log('На складе недостаточно товаров!');
@@ -21,7 +21,7 @@ if (ordered <= 100) {
 
 ordered = 80;
 
-if (ordered <= 100) {
+if (ordered <= total) {
   console.log('Заказ оформлен, с вами свяжется менеджер');
 } else {
   console.log('На складе недостаточно товаров!');
@@ -29,7 +29,7 @@ if (ordered <= 100) {
 
 ordered = 130;
 
-if (ordered <= 100) {
+if (ordered <= total) {
   console.log('Заказ оформлен, с вами свяжется менеджер');
 } else {
   console.log('На складе недостаточно товаров!');
